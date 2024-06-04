@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": "16b4",
+      "name": "sb",
+      "lastName": "sbb",
+      "email": "sb@gmail.com",
+      "phone": "977293847"
+    },
+    {
+      "id": "1d6a",
+      "name": "sb",
+      "lastName": "sb",
+      "email": "sb@gmail.com",
+      "phone": "9729900"
+    },
+    {
+      "id": "fd50",
+      "name": "ss",
+      "lastName": "ss",
+      "email": "ss@gmail.com",
+      "phone": "098765"
+    }
+  ]
+}

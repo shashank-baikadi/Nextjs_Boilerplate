@@ -1,0 +1,1 @@
+Core objects that represent the business models.
