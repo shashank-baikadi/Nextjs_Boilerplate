@@ -6,7 +6,7 @@ const [input, setInput] = useState("");
 return (
     <div className='flex'>
         <div>
-     
+        <SecondaryBar/>
         </div>
         <div>
       {children}
