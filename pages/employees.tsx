@@ -1,8 +1,12 @@
-import { GetServerSideProps } from 'next';
-import { Employee } from '../../domain/entities/Employee';
-import { GetAllEmployees } from '../../application/useCases/GettAllEmployees';
 
-import { EmployeeRepositoryImpl } from '../../infrastructure/repositories/EmployeeRepositoryImpl';
+import { GetServerSideProps } from 'next';
+
+
+import { EmployeeRepositoryImpl } from '@/infrastructure/repositories/EmployeeRepositoryImpl';
+import { GetAllEmployees } from '@/application/useCases/GettAllEmployees';
+import { Employee } from '@/domain/entities/Employee';
+
+// import { EmployeeRepositoryImpl } from '../../infrastructure/repositories/EmployeeRepositoryImpl';
 interface EmployeesPageProps {
   employees: Employee[];
 }
