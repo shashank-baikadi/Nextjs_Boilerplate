@@ -39,6 +39,7 @@
   "employees": [ {
     "id": 3,
     "name": "Bob Johnson",
-    "department": "Finance"
+    "department": "Finance",
+    "email": "sb@gmail.com"
   }]
 }

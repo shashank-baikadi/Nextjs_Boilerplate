@@ -13,7 +13,7 @@ const page = () => {
 <div className='space-y-8'>
       <div onClick={() => setShowForm(true)} className=' border px-3 bg-blue-100 rounded-md'>POST</div>
       <div className='border px-3 bg-blue-100 rounded-md'>
-        <Link href='get/employees'>
+        <Link href='sec_sidebar_one/register_get'>
         GET
         </Link>
         </div>

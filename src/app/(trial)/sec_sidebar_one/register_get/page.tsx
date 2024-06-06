@@ -1,4 +1,5 @@
 
+
 // import { GetServerSideProps } from 'next';
 
 
@@ -31,3 +32,32 @@
 // };
 
 // export default EmployeesPage;
+
+
+
+
+
+
+
+
+
+
+// src/app/(trial)/sec_sidebar_one/register_get/page.tsx
+import { EmployeeRepositoryImpl } from '@/infrastructure/repositories/EmployeeRepositoryImpl';
+import { GetAllEmployees } from '@/application/useCases/GettAllEmployees';
+import EmployeeList from '../../../../presentation/components/EmployeeList';
+
+const RegisterGetPage = async () => {
+  const repository = new EmployeeRepositoryImpl();
+  const useCase = new GetAllEmployees(repository);
+  const employees = await useCase.execute();
+
+  return (
+    <div>
+      <h1>Employees</h1>
+      <EmployeeList employees={employees} />
+    </div>
+  );
+};
+
+export default RegisterGetPage;

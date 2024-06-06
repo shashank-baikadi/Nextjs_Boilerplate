@@ -16,7 +16,11 @@ const SecondaryBar = () => {
         GET
         </Link>
         </div>
-      <div className='border px-3 bg-blue-100 rounded-md'>PATCH</div>
+        <div className='border px-3 bg-blue-100 rounded-md'>
+        <Link href='get/bookpage'>
+        PATCH
+        </Link>
+        </div>
       <div className='border px-3 bg-blue-100 rounded-md' > DELETE</div>
       </div>
 <div className='ml-12'>
